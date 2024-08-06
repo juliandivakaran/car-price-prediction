@@ -1,0 +1,12 @@
+<!-- car_predictor/templates/car_predictor/prediction_result.html -->
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Prediction Result</title>
+</head>
+<body>
+    <h1>Prediction Result</h1>
+    <p>Predicted Price: ${{ predicted_price }}</p>
+    <a href="{% url 'predict_car_price' %}">Predict Another</a>
+</body>
+</html>
